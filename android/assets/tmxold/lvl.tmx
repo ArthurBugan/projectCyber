@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="11" height="7" tilewidth="32" tileheight="32" nextobjectid="12">
+ <tileset firstgid="1" name="ground_walls" tilewidth="32" tileheight="32" tilecount="60" columns="10">
+  <image source="\ground_walls.png" width="321" height="192"/>
+ </tileset>
+ <layer name="bg" width="11" height="7">
+  <data encoding="base64">
+   AgAAAAMAAAADAAAAAwAAAAMAAAANAAAAAwAAAAMAAAADAAAAAwAAAAQAAAAMAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADgAAAAwAAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADQAAAA0AAAANAAAADQAAAA0AAAArAAAADQAAAA0AAAANAAAADQAAAA0AAAAMAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADgAAAAwAAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAAFgAAABcAAAAXAAAAFwAAABcAAAANAAAAFwAAABcAAAAXAAAAFwAAABgAAAA=
+  </data>
+ </layer>
+ <objectgroup name="walls">
+  <object id="2" x="0" y="0" width="160" height="5.5"/>
+  <object id="3" x="193" y="0.5" width="159" height="5.5"/>
+  <object id="4" x="347.5" y="5" width="4.5" height="89.5"/>
+  <object id="5" x="347.5" y="127.5" width="4.5" height="95.5"/>
+  <object id="6" x="192.5" y="217.5" width="155.5" height="6"/>
+  <object id="7" x="0.5" y="2" width="5.5" height="93"/>
+  <object id="8" x="0" y="127.5" width="5.5" height="96.5"/>
+  <object id="9" x="1" y="217" width="158.5" height="7"/>
+ </objectgroup>
+</map>
