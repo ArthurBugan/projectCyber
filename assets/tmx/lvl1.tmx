@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="13" height="9" tilewidth="80" tileheight="80" nextobjectid="11">
+ <tileset firstgid="1" name="ground_walls" tilewidth="80" tileheight="80" tilecount="50" columns="10">
+  <image source="ground_walls.png" width="800" height="479"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="13" height="9">
+  <data encoding="base64">
+   AgAAAAMAAAADAAAAAwAAAAMAAAADAAAADQAAAAMAAAADAAAAAwAAAAMAAAADAAAABAAAAAwAAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA4AAAAMAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADgAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAACsAAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAMAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADgAAAAwAAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA4AAAAWAAAAFwAAABcAAAAXAAAAFwAAABcAAAANAAAAFwAAABcAAAAXAAAAFwAAABcAAAAYAAAA
+  </data>
+ </layer>
+ <objectgroup name="Paredes">
+  <object id="2" x="0" y="-1.33333" width="16" height="318.667"/>
+  <object id="3" x="9.33333" y="0" width="470.667" height="13.3333"/>
+  <object id="5" x="560" y="0" width="474.667" height="13.3333"/>
+  <object id="6" x="1025.33" y="0" width="12" height="316"/>
+  <object id="7" x="1024" y="398.667" width="16" height="318.667"/>
+  <object id="8" x="561.333" y="702.667" width="476" height="13.3333"/>
+  <object id="9" x="-2.66667" y="397.333" width="17.3333" height="322.667"/>
+  <object id="10" x="0" y="701.333" width="478.667" height="14.6667"/>
+ </objectgroup>
+</map>

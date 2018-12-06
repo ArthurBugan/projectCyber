@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="12" height="8" tilewidth="32" tileheight="32" nextobjectid="13">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32" tilecount="60" columns="10">
+  <image source="ground.png" width="320" height="192"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="12" height="8">
+  <data encoding="base64">
+   AgAAAAMAAAADAAAAAwAAAAMAAAANAAAADQAAAAMAAAADAAAAAwAAAAMAAAAEAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADAAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAAFgAAABcAAAAXAAAAFwAAABcAAAANAAAADQAAABcAAAAXAAAAFwAAABcAAAAYAAAA
+  </data>
+ </layer>
+ <objectgroup name="Wall">
+  <object id="1" x="158" y="249" height="0.5"/>
+  <object id="2" x="-0.5" y="249.5" width="159.5" height="6.5"/>
+  <object id="3" x="0" y="159" width="5" height="97"/>
+  <object id="4" x="0" y="-1" width="5" height="96.5"/>
+  <object id="8" x="-1.5" y="-0.5" width="161" height="5.5"/>
+  <object id="9" x="223.5" y="0" width="160" height="4.5"/>
+  <object id="10" x="377.5" y="0" width="6.5" height="94.5"/>
+  <object id="11" x="378.5" y="159.5" width="6" height="96"/>
+  <object id="12" x="223.5" y="248.5" width="155.5" height="7"/>
+ </objectgroup>
+</map>
